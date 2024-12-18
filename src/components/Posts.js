@@ -24,7 +24,7 @@ const Posts = () => {
       <h1>Posts</h1>
       <hr />
       {isLoading ? (
-        <h1>Loading...</h1>
+        <h1>Loading..</h1>
       ) : (
         posts.map((post) => <Post key={post.id} {...post} />)
       )}
